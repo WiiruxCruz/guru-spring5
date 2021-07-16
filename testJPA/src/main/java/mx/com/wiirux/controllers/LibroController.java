@@ -17,6 +17,14 @@ public class LibroController {
 	
 	@RequestMapping("/libros")
 	public String getLibros(Model m) {
+		m.addAttribute("listadoLibros", lr.findAll());
+		
+		return "lista/libros";
+	}
+	
+	
+	@RequestMapping("/librosViejo")
+	public String getLibrosViejo(Model m) {
 		
 		m.addAttribute( "Libros", lr.findAll() );
 		
