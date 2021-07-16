@@ -85,7 +85,6 @@ public class Libro {
 				+ "id=" + id
 				+ ", titulo=" + titulo
 				+ ", isbn=" + isbn
-				+ ", autores=" + autores
 				+ "}";
 	}
 	

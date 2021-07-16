@@ -73,7 +73,6 @@ public class Autor {
 				+ "id=" + id
 				+ ", nombre=" + nombre
 				+ ", apellido=" + apellido
-				+ ", libros=" + libros
 				+ "}";
 	}
 	
